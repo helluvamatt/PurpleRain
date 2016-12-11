@@ -142,6 +142,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Drop.c" />
+    <ClCompile Include="Program.c" />
+    <ClCompile Include="PurpleRain.c" />
+    <ClCompile Include="Utils.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Drop.h" />
+    <ClInclude Include="includes.h" />
+    <ClInclude Include="PurpleRain.h" />
+    <ClInclude Include="Utils.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
